@@ -3,7 +3,7 @@ from sklearn.cross_validation import train_test_split
 from MLPipeline.IO.config_parser import parse_configfile
 from MLPipeline.IO.collect_classes import get_two_classes
 from _tools import build_parameter_grid, grid_search
-from MLPipeline.pipeline.build_pipeline import build_pipeline
+from MLPipeline.pipeline_tools.build_pipeline import build_pipeline
 import time
 
 cfg = parse_configfile(sys.argv[1])

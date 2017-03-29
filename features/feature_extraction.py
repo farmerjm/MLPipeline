@@ -1,3 +1,7 @@
+from sklearn.base import BaseEstimator
+import numpy as np
+
+
 ''' This contains a collection of feature extraction classes which can
 be used in the Pipeline and GridSearch.  
 
